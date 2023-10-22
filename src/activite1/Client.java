@@ -6,7 +6,7 @@ import java.net.Socket;
 public class Client {
 
 	public static void main(String[] args) throws IOException, IOException {
-        InetAddress serverAddress = InetAddress.getByName("10.26.15.106");
+        InetAddress serverAddress = InetAddress.getByName("192.168.100.11");
         InetSocketAddress serverSocketAddress = new InetSocketAddress(serverAddress, 1234);
 
         Socket clientSocket = new Socket();
